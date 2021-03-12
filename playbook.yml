@@ -1,0 +1,6 @@
+---
+  - name: set up server
+  - hosts: all
+  - user: ubuntu
+  - roles:
+      - setup
